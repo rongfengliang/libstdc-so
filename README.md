@@ -22,9 +22,11 @@ rm  -rf /lib64/libstdc++.so.6
 ln -s /lib64/libstdc++.so.6.26 libstdc++.so.6
 ```
 
-* ubuntu 
+* ubuntu 18
 
 ```code
 rm -rf /usr/lib/x86_64-linux-gnu/libstdc++.so.6
-ln -s  /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28  /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+ln -s  /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.26  /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 ```
+
+
