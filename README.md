@@ -13,7 +13,7 @@ libstdc++.so  some library for glibc
 
 rm  -rf /lib64/libstdc++.so.6
 ln -s /lib64/libstdc++.so.6.28 libstdc++.so.6
-``
+```
 
 * ubuntu 
 
