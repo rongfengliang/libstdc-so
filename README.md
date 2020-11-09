@@ -7,12 +7,19 @@ libstdc++.so  some library for glibc
 
 > deps on your os  && first copy lib to os
 
-* centos 
+* centos 8
 
 ```code
 
 rm  -rf /lib64/libstdc++.so.6
 ln -s /lib64/libstdc++.so.6.28 libstdc++.so.6
+```
+
+* centos 7
+
+```code
+rm  -rf /lib64/libstdc++.so.6
+ln -s /lib64/libstdc++.so.6.26 libstdc++.so.6
 ```
 
 * ubuntu 
